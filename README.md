@@ -1,3 +1,6 @@
 # a little overview of some simple projects
 
-##Notes on python tutorials and mini porojects can be found under the folder "python"
+• Python notes and little projects to document my learning process can be found in the folder "python"
+• Description of previous html/css projects are under "HTML"
+
+Keep reading to see my resume
