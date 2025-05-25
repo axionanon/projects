@@ -1,4 +1,4 @@
-#python
+<b>python<b>
 
 Libraries explored so far: pandas, numpy, matplotlib, tensorflow, pytorch, keras, sci-kit learn. <br>
 
