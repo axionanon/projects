@@ -6,5 +6,5 @@ I currently use Anaconda Navigator for any projects.
 
 <h3>Projects Listed in this Folder</h3>
 - Beginner basic image classification with TensorFlow <br>
-- Spyder + pyfiglet and colorama, "Secret Cipher Guestbook" <br>
+- Spyder + pyfiglet and 'colorama', "Secret Cipher Guestbook" <br>
 - BeautifulSoup + lxml, parsing HTML/XML from websites
