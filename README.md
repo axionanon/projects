@@ -4,6 +4,9 @@
 • Description of previous html/css projects are under "HTML" <br>
 
 # resume
+• Data visualisation
+• etc
+
 
 ## Contents
 - `risk-assessment-template.xlsx`: A basic risk register to log and track risks
