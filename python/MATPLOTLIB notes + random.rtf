@@ -1,0 +1,225 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 HelveticaNeue;\f1\fnil\fcharset0 .SFNSMono-Bold;\f2\fnil\fcharset0 HelveticaNeue-Bold;
+\f3\fnil\fcharset0 .SFNSMono-Light_YAXS144F07C_wght2580000;\f4\fnil\fcharset0 .SFNSMono-Regular;\f5\fnil\fcharset0 HelveticaNeue-Italic;
+\f6\fnil\fcharset0 .SFNS-Regular;\f7\fnil\fcharset0 .SFNS-RegularItalic;\f8\fnil\fcharset0 Menlo-Regular;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;\red42\green49\blue64;
+\red241\green241\blue242;\red13\green14\blue16;\red38\green38\blue38;\red255\green255\blue255;\red198\green250\blue232;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\csgray\c0\c0;\cssrgb\c21569\c25490\c31765;
+\cssrgb\c95686\c95686\c96078\c50196;\cssrgb\c5882\c6667\c7843;\cssrgb\c20000\c20000\c20000;\cssrgb\c100000\c100000\c100000;\cssrgb\c81176\c98039\c92941;
+}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid1\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid101\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid301\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid4}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww15700\viewh12940\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\
+\'91
+\f1\b imshow
+\f2 \'92 
+\f0\b0 is a function that displays an image. You can provide additional direction to how its shown such as cmap.\
+Think of 
+\f3\b cmap
+\f0\b0  as a way to choose how you want to colour the picture based on the data it represents. If you have a simple image that only needs two colours (like a light and dark area), you might use 
+\f3\b binary
+\f0\b0 . \
+If you have more complex data that varies in intensity, you might choose a gradient colormap to show those differences more clearly.\
+This command is specific to the matplotlib.\
+\
+
+\f3\b to_categorical
+\f0\b0  is a function from the Keras library (part of TensorFlow) that is commonly used in machine learning, especially for classification tasks.\
+This command transforms integer labels (like class indices) into a one-hot encoded format. For example, if you have labels like 
+\f3\b [0, 1, 2]
+\f0\b0 , 
+\f3\b to_categorical
+\f0\b0  would convert them into a format like 
+\f3\b [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+\f0\b0 . This transformation is useful for training models, particularly in multi-class classification, as it allows the model to output probabilities for each class.\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f1\b \cf2 one-hot encoded
+\f0\b0  format: In this format, each class label is represented as a binary vector where only one element is "hot" (set to 1) and all others are "cold" (set to 0). \
+We had 10 dimensional hot encoded vectors (WHY WORD DIMENSION??)\
+The presence of a dot (
+\f3\b .
+\f0\b0 ) before a command or attribute in Python indicates that you are accessing a property or method of an object, which typically means you are retrieving information that has already been calculated or stored. Here\'92s how to differentiate between the two:\
+ex:
+\f4  .shape
+\f0  , 
+\f3\b array.mean()
+\f0\b0 , 
+\f3\b array.sum()\
+FUNCTION CALL\
+
+\f0\b0 When you call a function or method that performs an action, 
+\f5\i you typically do not use a dot
+\f0\i0  unless you are calling a method of an object. For example, 
+\f3\b to_categorical(y_train)
+\f0\b0  is a function call that actively transforms the input data into one-hot encoded format.\
+
+\f4 epsilon 
+\f0 typically refers to a small constant added to prevent numerical instability, such as division by zero. It ensures that calculations involving variance or standard deviation remain stable, particularly in methods like batch normalization or when normalizing data. \
+Numerical stability, preventing overfitting, maintaining scale\
+
+\f3\b Sequential
+\f0\b0 : This is a Keras model type that allows you to build a neural network layer by layer in a linear stack. Each layer has exactly one input tensor and one output tensor, making it straightforward to create simple models.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\f3\b \cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Flatten
+\f0\b0 : This layer converts a multi-dimensional input (like a 28x28 image) into a one-dimensional array. For example, a 28x28 image becomes a 784-element array (28 * 28 = 784). This is necessary because the next layer (Dense) expects a 1D input.\
+\ls1\ilvl0
+\f3\b \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Dense
+\f0\b0 : This is a fully connected layer where each neuron is connected to every neuron in the previous layer. It performs a weighted sum of inputs and applies an activation function (like ReLU) to introduce non-linearity.\
+\pard\tx720\pardeftab720\partightenfactor0
+
+\fs32 \cf2 \
+
+\f6\fs18 from tensorflow.keras.models import Sequential\
+from tensorflow.keras.layers import Dense\
+\
+model = keras.Sequential([\
+ keras.layers.Flatten(input_shape=(28, 28)),  # Flatten the 28x28 images into a 1D array\
+ keras.layers.Dense(128, activation='relu'),   # Hidden layer with 128 neurons\
+ keras.layers.Dense(10, activation='softmax')   # Output layer for 10 classes (digits 0-9)\
+5])
+\fs24 \
+\
+
+\f7\i Alternative
+\f6\i0 \
+
+\fs18 model = Sequential ([\
+	Dense(128, activation=\'91relu\'92, input_shape=(784,)),\
+\
+])
+\f0\fs26 \
+\
+In the graphical representation \
+Z= weighted sum\
+Each node has 2 things: the weighted sum (z) and the second step is the activation function (A)\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf2 \ul \ulc4 Activation Functions\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf2 \ulnone In this project I am using a common value function - linear function for all the positive values, simply set to 0 for all the negative values\
+*the purpose of an activation function is to help neural networks find non-linearity in the given data\
+\pard\tx720\pardeftab720\partightenfactor0
+
+\f1\b \cf2 Softmax
+\f0\b0  -  gives us the probability scores for various nodes (in this case for output layer)\
+These probability scores sum up to 1\
+\
+COMPILING\
+\pard\tx720\pardeftab720\partightenfactor0
+
+\fs24 \cf2 \
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f1\b \cf2 SGD, or Stochastic Gradient Descent
+\f0\b0 , is used as an optimiser because it updates the model's parameters based on small batches of data, making it efficient for large datasets. In simple terms, it helps the model learn by gradually adjusting its predictions to reduce errors, similar to how you might improve your skills through practice and feedback.\
+\pard\pardeftab720\partightenfactor0
+\cf2 The model processes data in batches, and after each batch, it updates its parameters to reduce errors, improving its predictions incrementally with each batch.\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf2 - Efficiency with Large Datasets\
+- Frequent Updates\
+- avoiding local minima (randomness in the selection of data points can help the model escape local minima, which are points where the model's performance is not improving, but not necessarily the best overall solution.)\
+\
+\pard\pardeftab720\sa160\partightenfactor0
+\cf2 The optimiser is specified in the compile stage rather than the model creation stage because:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+Separation of Concerns: Model creation focuses on defining the architecture (layers, shapes, etc.), while compilation is about configuring how the model will learn. This separation makes the code clearer and more organised.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+Flexibility: By compiling the model separately, you can easily change the optimiser, loss function, or metrics without altering the model's structure. This allows for experimentation with different learning strategies.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 {\listtext	3	}\expnd0\expndtw0\kerning0
+Final Configuration: The compile stage is where you finalise the model's training configuration, including the optimiser, loss function, and evaluation metrics, before starting the training process. This is the point where you set how the model will learn from the data.\
+\pard\tx720\pardeftab720\partightenfactor0
+\cf2 LOSS\
+\pard\pardeftab720\partightenfactor0
+\cf2 Loss Function: A score that tells the model how far off its predictions are from the actual answers. The lower the score, the better the model is performing.\
+\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\f3\b \cf2 loss='categorical_crossentropy'
+\f0\b0 helps the model learn by showing it how wrong it is, so it can improve its predictions over time.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+This specific type of loss function is used when you have multiple categories (like 10 different digits). It compares the model's predicted probabilities for each category to the actual category (the correct answer) and calculates a score based on how well the predictions match the actual answers.\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+Use 
+\f3\b categorical_crossentropy
+\f0\b0  when you are dealing with a classification problem where there are multiple classes (more than two), and your labels are one-hot encoded.\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}\expnd0\expndtw0\kerning0
+It is typically used in conjunction with a 
+\f4 softmax
+\f0  activation function in the output layer, which converts the model's raw output into probabilities for each class.\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\uc0\u8226 	}the difference between the predictive outputs and actual outputs. needs to be minimized inorder to give a highly accurate model\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\fs32 \cf2 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\sa160\partightenfactor0
+
+\fs26 \cf2 You can\'92t use one set for both training and testing because the results might be biased.\
+Train only on the training set. 
+\fs32 \
+\
+Significant error: 
+\f8\fs28 x_train_norm was not defined
+\f0\fs32 \
+When finished training, my accuracy was extremely low and my loss was insanely high ???\
+
+\fs28 \'97> the error was in
+\f4  
+\f1\b\fs32 Data Normalization - 
+\f0\b0 improper division with parentheses. x_test and x_train must subtract the mean. Then this value is divided by (std and epsilon)\
+\
+Plotting the results \
+\pard\pardeftab720\partightenfactor0
+
+\f3\b\fs28 \cf2 np.argmax
+\f0\b0\fs32  is a function that finds the index of the maximum value in an array. It looks at an array (a list of numbers) and tells you the position (index) of the largest.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls4\ilvl0
+\fs26 \cf2 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+Classification: In machine learning, when a model predicts probabilities for different classes (like cat, dog, or bird), 
+\f3\b\fs22 np.argmax
+\f0\b0\fs26  can be used to determine which class has the highest probability. The class with the highest value is considered the model's prediction.\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+Decision Making: In various algorithms, you might want to choose the best option from a set of scores or evaluations. The highest score indicates the best choice.\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 {\listtext	3	}\expnd0\expndtw0\kerning0
+Performance Metrics: In optimization problems, finding the maximum value can help identify the best solution or outcome.
+\fs32 \
+\pard\pardeftab720\sa160\partightenfactor0
+
+\fs26 \cf2 \
+QUESTIONS\cf4 \cb5 \
+\pard\pardeftab720\partightenfactor0
+
+\fs32 \cf6 \cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\fs28 \cf7 \cb8 Question 3\cb1 \
+\pard\pardeftab720\partightenfactor0
+
+\f5\i\fs26 \cf6 \cb8 If we have a neural network with just 2 layers - input and output. The input layer has 10 nodes and the output layer has 2 nodes and both are densely connected. How many total learn-able parameters exist in this network architecture assuming we are using biases along with weights?\
+\pard\pardeftab720\partightenfactor0
+
+\f0\i0\fs30 \cf6 \cb9 The 2 nodes from output are connected with each of the 10 input nodes. This means a total of 20 connections and 20 associated weights. There will be 1 bias connected to both the output nodes as well giving us a total 22 learn-able parameters.\
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs32 \cf6 \cb8 softmax activation function?
+\fs28 \cf7 \cb1 \
+
+\fs32 \cf6 \cb8 It can be used as an activation function for the output layer in classification problems.\cb1 \
+\pard\pardeftab720\partightenfactor0
+\cf6 \cb9 Since this activation function gives us probability scores for all the classes, it is suitable to be used as an output activation function for classification problems.}
