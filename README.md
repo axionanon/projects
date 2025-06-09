@@ -14,7 +14,7 @@ Projects
 - BeautifulSoup + lxml, parsing HTML/XML from websites
   
 # Python Inspired ARG
-I created a small ARG so users can interact with my python project on the web.
+I created a small ARG (online scavenger hunt) so users can interact with my python project on the web.
 If you'd like to play, start here:
 
 <i>Two words in one — a single name<br>
