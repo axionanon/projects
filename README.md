@@ -17,7 +17,7 @@ Projects
 I created a small ARG so users can interact with my python project on the web.
 If you'd like to play, start here:
 
-Two words in one — a single name<br>
+<i>Two words in one — a single name<br>
 Point to a user, let’s start the game.<br>
 
 The first arrives when hands align,<br>
@@ -29,14 +29,9 @@ He guides the guests and shuts the door. <br>
 With a ding and he jumps near— Who stands in uniform right here?<br>
 
 Where pictures linger and stories fade,<br>
-Search where many squares are laid.<br>
+Search where many squares are laid.<br> </i>
 
 Good luck. 
-
-
-• Data visualisation
-• etc
-
 
 ## Contents
 - `risk-assessment-template.xlsx`: A basic risk register to log and track risks
