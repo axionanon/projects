@@ -16,9 +16,9 @@ If you'd like to play, start here:
 <i>Two words in one — a single name <br>
 Point to a user, let’s start the game.<br>
 <br>
-The first arrives when hands align, No sun remains, no church bells chime. The world is still, the hour late— A shadow slips past lobby gate.<br>
+The first arrives when hands align,<br> No sun remains, no church bells chime.<br> The world is still, the hour late— A shadow slips past lobby gate.<br>
 <br>
-The second wears a cap, he works the floor, He guides the guests and shuts the door. With a ding and he jumps near— Who stands in uniform right here?<br>
+The second wears a cap, he works the floor, <br>He guides the guests and shuts the door. <br>With a ding and he jumps near— Who stands in uniform right here?<br>
 <br>
 Where pictures linger and stories fade,<br>
 Search where many squares are laid.</i><br>
