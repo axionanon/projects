@@ -3,7 +3,37 @@
 • Python notes and little projects to document my learning process can be found in the folder "python" <br>
 • Description of previous html/css projects are under "HTML" <br>
 
-# resume
+# Python
+Libraries explored so far: pandas, numpy, matplotlib, tensorflow, pytorch, keras, sci-kit learn.
+I have used: VS code, Jupyter Labs / Jupyter Notebooks, Spyder, Pycharm.
+
+Projects
+- Beginner basic image classification with TensorFlow
+- Jupyter notebook assignments from Linear Algebra for Machine Learning ICL course
+- Spyder + pyfiglet and colorama, "Secret Cipher Guestbook" . Repo: https://github.com/axionanon/cryptguestbook/tree/main
+- BeautifulSoup + lxml, parsing HTML/XML from websites
+  
+# Python Inspired ARG
+I created a small ARG so users can interact with my python project on the web.
+If you'd like to play, start here:
+
+Two words in one — a single name
+Point to a user, let’s start the game.
+
+The first arrives when hands align,
+ No sun remains, no church bells chime.
+ The world is still, the hour late— A shadow slips past lobby gate.
+
+The second wears a cap, he works the floor, 
+He guides the guests and shuts the door. 
+With a ding and he jumps near— Who stands in uniform right here?
+
+Where pictures linger and stories fade,
+Search where many squares are laid.
+
+Good luck. 
+
+
 • Data visualisation
 • etc
 
