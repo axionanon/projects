@@ -13,8 +13,8 @@ Projects
 - Spyder + pyfiglet and colorama, "Secret Cipher Guestbook" . Repo: https://github.com/axionanon/cryptguestbook/tree/main
 - BeautifulSoup + lxml, parsing HTML/XML from websites
   
-# Python Inspired ARG
-I created a small ARG (online scavenger hunt) so users can interact with my python project on the web.
+# secret cipher ARG
+I created a small ARG (online scavenger hunt) so users can interact with my cipher guestbook python project on the web.
 If you'd like to play, start here:
 
 <i>Two words in one — a single name<br>
