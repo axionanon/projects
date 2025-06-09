@@ -10,10 +10,10 @@ I currently use Anaconda Navigator for any projects.
 - BeautifulSoup + lxml, parsing HTML/XML from websites
 
 <h3>Python Inspired ARG</h3>
-Got a little overzealous and turned my secret cipher guestbook into an ARG so users can at least interact with the project on the web. Requires no IDE or python installed locally. 
+Got a little overzealous and turned my secret cipher guestbook into an ARG so users can at least interact with the project on the web. Requires no IDE or python installed locally. <br>
 If you'd like to play, start here:
-<br>
-Two words in one — a single name <br>
+<br><br>
+<i>Two words in one — a single name <br>
 Point to a user, let’s start the game.<br>
 <br>
 The first arrives when hands align, No sun remains, no church bells chime. The world is still, the hour late— A shadow slips past lobby gate.<br>
@@ -21,6 +21,6 @@ The first arrives when hands align, No sun remains, no church bells chime. T
 The second wears a cap, he works the floor, He guides the guests and shuts the door. With a ding and he jumps near— Who stands in uniform right here?<br>
 <br>
 Where pictures linger and stories fade,<br>
-Search where many squares are laid.<br>
+Search where many squares are laid.</i>i<br>
 <br>
 Goof luck. 
