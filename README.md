@@ -3,7 +3,7 @@
 • Python notes and little projects to document my learning process can be found in the folder "python" <br>
 • Description of previous html/css projects are under "HTML" <br>
 
-# Python
+# python
 Libraries explored so far: pandas, numpy, matplotlib, tensorflow, pytorch, keras, sci-kit learn.
 I have used: VS code, Jupyter Labs / Jupyter Notebooks, Spyder, Pycharm.
 
