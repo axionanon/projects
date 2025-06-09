@@ -32,7 +32,3 @@ Where pictures linger and stories fade,<br>
 Search where many squares are laid.<br> </i>
 
 Good luck. 
-
-## Contents
-- `risk-assessment-template.xlsx`: A basic risk register to log and track risks
-- `risk-assessment-guide.md`: Step-by-step guidance on using the template
