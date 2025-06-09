@@ -23,4 +23,4 @@ The second wears a cap, he works the floor, <br>He guides the guests and shuts
 Where pictures linger and stories fade,<br>
 Search where many squares are laid.</i><br>
 <br>
-Goof luck. 
+Good luck. 
