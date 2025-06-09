@@ -10,8 +10,9 @@ I currently use Anaconda Navigator for any projects.
 - BeautifulSoup + lxml, parsing HTML/XML from websites
 
 <h3>Python Inspired ARG</h3>
-Got a little overzealous and turned my secret cipher guestbook into an ARG so users can at least interact with the project on the web. Requires no IDE or python installed locally. If you'd like to play, start here:
-
+Got a little overzealous and turned my secret cipher guestbook into an ARG so users can at least interact with the project on the web. Requires no IDE or python installed locally. 
+If you'd like to play, start here:
+<br>
 Two words in one — a single name <br>
 Point to a user, let’s start the game.<br>
 <br>
