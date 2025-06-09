@@ -21,6 +21,6 @@ The first arrives when hands align, No sun remains, no church bells chime. T
 The second wears a cap, he works the floor, He guides the guests and shuts the door. With a ding and he jumps near— Who stands in uniform right here?<br>
 <br>
 Where pictures linger and stories fade,<br>
-Search where many squares are laid.</i>i<br>
+Search where many squares are laid.</i><br>
 <br>
 Goof luck. 
