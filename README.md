@@ -11,7 +11,7 @@ Projects
 - Beginner basic image classification with TensorFlow
 - Jupyter notebook assignments from Linear Algebra for Machine Learning ICL course
 - Spyder + pyfiglet and colorama, "Secret Cipher Guestbook" . Repo: https://github.com/axionanon/cryptguestbook/tree/main
-- BeautifulSoup + lxml, parsing HTML/XML from websites
+- BeautifulSoup + lxml, parsing HTML/XML from websites (in progress)
   
 # secret cipher ARG
 I created a small ARG (online scavenger hunt) so users can interact with my cipher guestbook python project on the web.
