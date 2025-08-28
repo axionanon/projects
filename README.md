@@ -15,4 +15,20 @@ Projects
   
 # secret cipher ARG
 I created a small ARG (online scavenger hunt) so users can interact with my cipher guestbook python project on the web.
-Link soon
+First clue below <br> <br>
+
+Two words in one — a single name <br>
+Point to a user, let’s start the game.<br>
+
+The first arrives when hands align,<br>
+No sun remains, no church bells chime. <br>
+The world is still, the hour late—<br>
+A time which strikes long after eight.<br>
+
+The second wears a cap, he works the floor, <br>
+He guides the guests, guards lobby door.<br>
+With a ding and he jumps near—<br>
+Who stands in uniform right here?<br>
+
+Where pictures linger and stories fade,<br>
+Search where many squares are laid.
